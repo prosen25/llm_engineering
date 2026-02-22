@@ -4,8 +4,8 @@ from pydantic import BaseModel, Field
 from litellm import completion
 from dotenv import load_dotenv
 
-from evaluation.test import TestQuestion, load_tests
-from implementation.answer import answer_question, fetch_context
+from week5.evaluation.test_original import TestQuestion, load_tests
+from week5.implementation.answer_original import answer_question, fetch_context
 
 
 load_dotenv(override=True)
