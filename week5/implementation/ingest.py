@@ -11,7 +11,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 # Define global constants
 LLM_MODEL = "gpt-5-nano"
-EMBEDDING_MODEL = "text-embedding-3-large"
+EMBEDDING_MODEL = "text-embedding-3-small"
 KNOWLEDGE_BASE = str(Path(__file__).parent.parent / "knowledge-base")
 DB_NAME = "vector_db"
 

@@ -73,4 +73,4 @@ def answer_question(question: str, history: list[dict] = []) -> str:
     llm = ChatOpenAI(temperature=0, model=LLM_MODEL)
     response = llm.invoke(input=messages)
 
-    return response.content
+    return response.content, docs
